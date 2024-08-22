@@ -5,19 +5,16 @@
     --cor-hover1: #2e2e2e;
 }
 
-body {
-    margin: 0px;
+* {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
-}
-
-a {
     text-decoration: none;
+}
+img {
+    max-width: 100%;
+    display: block;
 }
 
 .header-bg {
@@ -86,4 +83,7 @@ a {
         padding: 8px 12px;
         font-size: 14px;
     }
+}
+.introducao-bg {
+    
 }
