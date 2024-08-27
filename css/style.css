@@ -1,6 +1,7 @@
 :root {
     --cor-de-fundo: #000000;
     --cor-de-fonte1: #ffffff;
+    --cor-de-fonte2: #b2b2b2;
     --cor-mobile1: #111111;
     --cor-hover1: #2e2e2e;
 }
@@ -11,6 +12,7 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    color: inherit;
 }
 img {
     max-width: 100%;
@@ -59,6 +61,34 @@ img {
 .header-menu a:hover:after {
     width: 100%;
 }
+
+.introducao-bg {
+    background: var(--cor-de-fundo);
+    color: var(--cor-de-fonte1);
+}
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+}
+.introducao-conteudo{
+    align-self: self-end;
+    padding-bottom: 80px;
+}
+.introducao h1 {
+    margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 1.125;
+}
+.introducao p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--cor-de-fonte2);
+}
+
+
+
 @media (max-width: 800px) {
     .header-menu {
         gap: 20px;
@@ -83,7 +113,3 @@ img {
         padding: 8px 12px;
         font-size: 14px;
     }
-}
-.introducao-bg {
-    
-}
