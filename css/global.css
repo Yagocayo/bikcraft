@@ -1,12 +1,4 @@
 @charset "UTF-8";
-
-:root {
-    --cor-de-fundo: #000000;
-    --cor-de-fonte1: #ffffff;
-    --cor-de-fonte2: #b2b2b2;
-    --cor-mobile1: #111111;
-    --cor-hover1: #2e2e2e;
-}
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
