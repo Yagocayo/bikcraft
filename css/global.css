@@ -14,3 +14,7 @@ img {
     max-width: 100%;
     display: block;
 }
+/*selecionando apenas as imagens atraves do $=*/
+img[src$=".jpg"] {
+    border-radius: 4px;
+}
